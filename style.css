@@ -1,18 +1,58 @@
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url("./istockphoto-1177487069-612x612.jpg") ;
-    background-size: 100%;
+    rgba(0, 0, 0, 0.5)), url("./homepic.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;   
+    height: 591px;
 }
-div{
+nav img{
+    display: inline-block;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+nav a{
+    color: white;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding-right: 40px;
+    margin-top: 15px;
+    font-size: large;
+    border: none;
+    padding-left : 33px;
+}
+a:hover{
+color: #04AA6D;
+background-color: white;
+}
+a:active{
+    color: red;
+    background-color: black;
+}
+
+h1{
     display: inline-block;
     text-align: center;
-    margin-left: 390px;
+    margin-left: 430px;
     margin-top: 150px;
+    color: white;
+    font-size:50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+p{
+    display: inline-block;
+    text-align: center;
+    margin-left: 460px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
 }   
 .btn{
     display: inline-block;
     text-align: center;
-    margin-left: 530px;
+    margin-left: 500px;
 }
 .btn1{
     background-color: #04AA6D;
@@ -23,10 +63,11 @@ div{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 20px;
+    border-radius: 30px;
+    margin-right: 10px;
   }
   .btn2{
-background-color: #91113169;
+background-color: rgb(0, 0, 0, 0.9);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -34,22 +75,6 @@ background-color: #91113169;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
   }
-nav ul li{
-    display: inline;
-    float: inline-end;
-    border: none;
-    margin: 10px;
-    color: white;
-}
-h1{
-    color: white;
-    font-size:50px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-p{
-    color: rgb(255, 255, 255);
-}
